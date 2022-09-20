@@ -46,15 +46,18 @@ languages:
         Content: "Dit is mijn persoonlijke site and archief."
       menu:
           main:
+              - name: School
+                url: "https://woutnotermans.be"
+                weight: 1
               - name: Over mij
                 url: about/
-                weight: 1
+                weight: 2
               - name: Projecten
                 url: projects/
-                weight: 2
+                weight: 3
               - name: Contact
                 url: "mailto:woutnotermans1@gmail.com"
-                weight: 3
+                weight: 4
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.

@@ -12,6 +12,4 @@ series: []
 math: true
 ---
 
-
-
-<p>TBA</p>
+TBA

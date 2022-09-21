@@ -10,21 +10,12 @@
     </image>
     <generator>Hugo -- gohugo.io</generator><atom:link href="/nl/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Contact</title>
-      <link>/nl/contact/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/nl/contact/</guid>
-      <description>Mijn email is woutnotermans1@gmail.com.</description>
-    </item>
-    
-    <item>
       <title>Over mij</title>
       <link>/nl/about/</link>
       <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>/nl/about/</guid>
-      <description>Ik ben Wout Notermans, student wiskunde en computer nerd uit België. Mijn voornaamste interesses zijn computationele en toegepaste wiskunde, met een extra focus op programmeren en optimalisatie. Daarbuiten ben ik muzikant, ik bespeel het eufonium al bijna mijn hele leven. Ik luister voornamelijk naar eurobeat, video game OST en jazz, al ben ik ook een grote fan van oude musicals zoals Singin’ In The Rain. Ik programmeer voornamelijk in Python, maar ik ben van plan om ook Lua te leren voor zijn extreme snelheid.</description>
+      <description>Ik ben Wout Notermans, student wiskunde en computer nerd uit België. Mijn voornaamste interesses zijn computationele en toegepaste wiskunde, met een extra focus op programmeren en optimalisatie. Daarbuiten ben ik muzikant, ik bespeel het eufonium al bijna mijn hele leven. Ik luister voornamelijk naar eurobeat, video game OST en jazz, al ben ik ook een grote fan van oude musicals zoals Singin&amp;rsquo; In The Rain. Ik programmeer voornamelijk in Python, maar ik ben van plan om ook Lua te leren voor zijn extreme snelheid.</description>
     </item>
     
     <item>
@@ -34,6 +25,15 @@
       
       <guid>/nl/projects/</guid>
       <description>TBA</description>
+    </item>
+    
+    <item>
+      <title>Begrippenlijst</title>
+      <link>/nl/school/fks/begrippenlijst/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/nl/school/fks/begrippenlijst/</guid>
+      <description>Hoofdstuk 1: Kansruimten Universum: verzameling van alle mogelijke uitkomsten van een experiment. Notatie: \(\Omega\). De elementen van \(\Omega\) noteren we door \(\omega\). Hoofdstuk 2: Voorwaardelijke kans en onafhankelijkheid Hoofdstuk 3: Stochastische veranderlijken en hun verdeling Hoofdstuk 4: Verwachtingswaarde; momenten; genererende functie; karakteristieke functie Hoofdstuk 5: Meerdimensionale verdelingen Hoofdstuk 6: Voorwaardelijke verdelingen en verwachtingwaarden Hoofdstuk 7: Transformaties van stochastische veranderlijken Hoofdstuk 8: Convergentie van stochastische veranderlijken Hoofdstuk 9: Steekproeven uit een populatie Hoofdstuk 10: Schattingsproblemen </description>
     </item>
     
   </channel>

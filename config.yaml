@@ -1,14 +1,17 @@
 baseURL: "/"
 title: woutnotermans
 theme: hugo-PaperMod
+paginate: 5
 language_code: en-US
 
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 
+enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+enableEmoji: true
 
 languages:
     en:
@@ -47,7 +50,7 @@ languages:
       menu:
           main:
               - name: School
-                url: "https://woutnotermans.be"
+                url: school/
                 weight: 1
               - name: Over mij
                 url: about/
@@ -73,12 +76,12 @@ params:
 
   ShowReadingTime: true
   ShowShareButtons: true
-  ShowPostNavLinks: true
+  ShowPostNavLinks: false
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowWordCount: false
   ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
+  UseHugoToc: false
   disableSpecial1stPost: false
   disableScrollToTop: false
   comments: false
@@ -107,7 +110,7 @@ params:
       url: "https://github.com/wnotermans"
       
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/wnotermans/woutnotermans.be/tree/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
     

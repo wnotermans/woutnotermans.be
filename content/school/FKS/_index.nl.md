@@ -1,4 +1,3 @@
 ---
 title: Fundamenten in Kanstheorie en Statistiek
-description: test
 ---

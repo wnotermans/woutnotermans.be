@@ -1,3 +1,25 @@
 ---
 title: Begrippenlijst
 ---
+
+# Hoofdstuk 1: Kansruimten
+
+- Universum: verzameling van alle mogelijke uitkomsten van een experiment. Notatie: $\Omega$. De elementen van $\Omega$ noteren we  door $\omega$.
+
+# Hoofdstuk 2: Voorwaardelijke kans en onafhankelijkheid
+
+# Hoofdstuk 3: Stochastische veranderlijken en hun verdeling
+
+# Hoofdstuk 4: Verwachtingswaarde; momenten; genererende functie; karakteristieke functie
+
+# Hoofdstuk 5: Meerdimensionale verdelingen
+
+# Hoofdstuk 6: Voorwaardelijke verdelingen en verwachtingwaarden
+
+# Hoofdstuk 7: Transformaties van stochastische veranderlijken
+
+# Hoofdstuk 8: Convergentie van stochastische veranderlijken
+
+# Hoofdstuk 9: Steekproeven uit een populatie
+
+# Hoofdstuk 10: Schattingsproblemen

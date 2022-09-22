@@ -1,0 +1,83 @@
+---
+title: Stellingen, eigenschappen en gevolgen
+---
+
+# Hoofdstuk 1: Kansruimten
+
+## Eigenschappen 1.2
+
+Zij $E,F$ en $G$ deelverzamelingen van het universum $\Omega$.
+
+1. $(E^c)^c=E$
+
+2. $E\cup E^c=\Omega$
+
+3. $E\cap E^c=\emptyset$
+
+4. $E\cup F=F\cup E,\quad E\cap F=F \cap E$ (commutatief)
+
+5. $E\cup(F\cup G)=(E\cup F)\cup G,\quad E\cap(F\cap G)=(E\cap F)\cap G$ (associatief)
+
+6. $(E\cap F)\cup G=(E\cup G)\cap(F\cup G),\quad (E\cup F)\cap G=(E\cap G)\cup(F\cap G)$ (distributief)
+
+7. $(E\cup F)^c=E^c\cap F^c$ (de Morgan's eerste wet)
+
+8. $(E\cap F)^c=E^c\cup F^c$ (de Morgan's tweede wet)
+
+## Gevolgen uit de axioma's van [Definitie 1.3](/nl/school/fks/begrippenlijst/#definitie-13){#def-13-gevolgen-axioma}
+
+1. $A_n\in\mathcal{B},n=1,2,...,N\implies\cup_{n=1}^{N}A_n\in\mathcal{B}$
+
+2. $\Omega\in\mathcal{B}$
+
+3. $\emptyset\in\mathcal{B}$
+
+4. $A_n\in\mathcal{B},n=1,2,...\implies\cap_{n=1}^{\infty}A_n\in\mathcal{B}$
+
+## Stelling 1.4
+
+Gegeven een klasse $\mathcal{C}$ van deelverzamelingen van $\Omega$, dan bestaat er een $\sigma$-algebra $\mathcal{B(C)}$ die alle verzamelingen uit $\mathcal{C}$ omvat, en zodanig dat voor elke $\sigma$-algebra $\mathcal{B}_1$, die $\mathcal{C}$ bevat geldt: $\mathcal{B(C)}\subset\mathcal{B}_1$.
+
+## Gevolgen uit de axioma's van [Definitie 1.6](/nl/school/fks/begrippenlijst/#definitie-16){#def-16-gevolgen-axioma}
+
+1. $P(\emptyset)=0$
+
+2. Voor $A_n\in\mathcal{B},n=1,...,N$, paarsgewijs disjunct, geldt: $$P\left(\cup_{n=1}^{N}A_n\right)=\sum_{n=1}^{N}P(A_n)$$ (eindige additiviteit)
+
+3. Voor alle $A,B\in\mathcal{B}:P(B)=P(B\cap A)+P(B\cap A^c)$
+
+4. Voor alle $A\in\mathcal{B}:P(A)=1-P(A^c)$
+
+5. Voor alle $A,B\in\mathcal{B}:A\subset B\implies P(A)\leq P(B)$
+
+6. Voor alle $A\in\mathcal{B}:P(A)\leq1$
+
+7. Voor alle $A,B\in\mathcal{B}:P(A\cup B)=P(A)+P(B)-P(A\cap B)$
+
+8. Voor $A_n\in\mathcal{B},n=1,...,N$, niet noodzakelijk paarsgewijs disjunct, geldt: $$P\left(\cup_{n=1}^{N}A_n\right)\leq\sum_{n=1}^{N}P(A_n)$$
+
+## Stelling 1.7 (continuïteitsstelling)
+
+Onderstel dat $A_n,n=1,2,...$ gebeurtenissen zijn.
+
+1. als $A_1\subset A_2\subset\cdots$ en $A=\cup_{n=1}^{\infty}A_n$, dan is $\lim_{n\to\infty}P(A_n)=P(A)$
+
+2. als $A_1\supset A_2\supset\cdots$ en $A=\cap_{n=1}^{\infty}A_n$, dan is $\lim_{n\to\infty}P(A_n)=P(A)$
+
+# Hoofdstuk 2: Voorwaardelijke kans en onafhankelijkheid
+
+# Hoofdstuk 3: Stochastische veranderlijken en hun verdeling
+
+# Hoofdstuk 4: Verwachtingswaarde; momenten; genererende functie; karakteristieke functie
+
+# Hoofdstuk 5: Meerdimensionale verdelingen
+
+# Hoofdstuk 6: Voorwaardelijke verdelingen en verwachtingwaarden
+
+# Hoofdstuk 7: Transformaties van stochastische veranderlijken
+
+# Hoofdstuk 8: Convergentie van stochastische veranderlijken
+
+# Hoofdstuk 9: Steekproeven uit een populatie
+
+# Hoofdstuk 10: Schattingsproblemen

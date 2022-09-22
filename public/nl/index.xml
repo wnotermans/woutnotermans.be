@@ -33,7 +33,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/nl/school/fks/begrippenlijst/</guid>
-      <description>Hoofdstuk 1: Kansruimten Universum: verzameling van alle mogelijke uitkomsten van een experiment. Notatie: \(\Omega\). De elementen van \(\Omega\) noteren we door \(\omega\). Hoofdstuk 2: Voorwaardelijke kans en onafhankelijkheid Hoofdstuk 3: Stochastische veranderlijken en hun verdeling Hoofdstuk 4: Verwachtingswaarde; momenten; genererende functie; karakteristieke functie Hoofdstuk 5: Meerdimensionale verdelingen Hoofdstuk 6: Voorwaardelijke verdelingen en verwachtingwaarden Hoofdstuk 7: Transformaties van stochastische veranderlijken Hoofdstuk 8: Convergentie van stochastische veranderlijken Hoofdstuk 9: Steekproeven uit een populatie Hoofdstuk 10: Schattingsproblemen </description>
+      <description>Hoofdstuk 1: Kansruimten Definitie 1.1 Universum: verzameling van alle mogelijke uitkomsten van een experiment. Notatie: \(\Omega\). De elementen van \(\Omega\) noteren we door \(\omega\).
+Definitie 1.3 Sigma-algebra: een \(\sigma\)-algebra \(\mathcal{B}\) over een universum \(\Omega\) is een niet-lege familie van deelverzamelingen van \(\Omega\), zodat: - [B1]: $$A\in\mathcal{B}\implies A^c\in\mathcal{B}$$ - [B2]: $$A_n\in B,n=1,2,...\implies\cup_{n=1}^{\infty}A_n\in\mathcal{B}.$$
+Definitie 1.5 De \(\sigma\)-algebra \(\mathcal{B(C)}\) gedefinieerd door Stelling 1.4 heet: de \(\sigma\)-algebra voortgebracht door de klasse \(\mathcal{C}\).
+Definitie 1.6 Een kansmaat \(P\) op \(\mathcal{B}\) is een functie $$P:\mathcal{B}\to\mathbb{R}$$ $$A\mapsto P(A).</description>
     </item>
     
   </channel>

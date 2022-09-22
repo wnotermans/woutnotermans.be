@@ -28,7 +28,7 @@
                 href="/nl/projects/"
                 />
   </url><url>
-    <loc>/nl/school/fks/begrippenlijst/</loc>
+    <loc>/nl/school/fundamenten/begrippenlijst/</loc>
   </url><url>
     <loc>/nl/categories/</loc>
     <xhtml:link
@@ -42,7 +42,13 @@
                 href="/nl/categories/"
                 />
   </url><url>
-    <loc>/nl/school/fks/</loc>
+    <loc>/nl/school/comp_ana/</loc>
+  </url><url>
+    <loc>/nl/school/fundamenten/</loc>
+  </url><url>
+    <loc>/nl/school/image_processing/</loc>
+  </url><url>
+    <loc>/nl/school/meetkunde/</loc>
   </url><url>
     <loc>/nl/school/</loc>
   </url><url>
@@ -58,6 +64,8 @@
                 href="/nl/series/"
                 />
   </url><url>
+    <loc>/nl/school/fundamenten/st-eig-etc/</loc>
+  </url><url>
     <loc>/nl/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -69,6 +77,8 @@
                 hreflang="nl"
                 href="/nl/tags/"
                 />
+  </url><url>
+    <loc>/nl/school/vcdv/</loc>
   </url><url>
     <loc>/nl/</loc>
     <xhtml:link

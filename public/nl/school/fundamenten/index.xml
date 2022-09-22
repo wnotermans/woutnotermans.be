@@ -1,32 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>woutnotermans</title>
-    <link>/nl/</link>
-    <description>Recent content on woutnotermans</description>
+    <title>Fundamenten in Kanstheorie en Statistiek on woutnotermans</title>
+    <link>/nl/school/fundamenten/</link>
+    <description>Recent content in Fundamenten in Kanstheorie en Statistiek on woutnotermans</description>
     <image>
       <url>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="/nl/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Over mij</title>
-      <link>/nl/about/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/nl/about/</guid>
-      <description>Ik ben Wout Notermans, student wiskunde en computer nerd uit België. Mijn voornaamste interesses zijn computationele en toegepaste wiskunde, met een extra focus op programmeren en optimalisatie. Daarbuiten ben ik muzikant, ik bespeel het eufonium al bijna mijn hele leven. Ik luister voornamelijk naar eurobeat, video game OST en jazz, al ben ik ook een grote fan van oude musicals zoals Singin&amp;rsquo; In The Rain. Ik programmeer voornamelijk in Python, maar ik ben van plan om ook Lua te leren voor zijn extreme snelheid.</description>
-    </item>
-    
-    <item>
-      <title>Projecten</title>
-      <link>/nl/projects/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/nl/projects/</guid>
-      <description>TBA</description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/nl/school/fundamenten/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Begrippenlijst</title>
       <link>/nl/school/fundamenten/begrippenlijst/</link>

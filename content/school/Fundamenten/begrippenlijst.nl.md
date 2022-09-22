@@ -20,7 +20,7 @@ Een universum `\(\Omega\)` uitgerust met een `\(\sigma\)`-algebra `\(\mathcal{B}
 
 ## Definitie 1.5
 
-De `\(\sigma\)`-algebra `\(\mathcal{B(C)}\)` gedefinieerd door Stelling 1.4 heet: de `\(\sigma\)`-algebra voortgebracht door de klasse `\(\mathcal{C}\)`.
+De `\(\sigma\)`-algebra `\(\mathcal{B(C)}\)` gedefinieerd door [Stelling 1.4](/nl/school/fundamenten/st-eig-etc#stelling-14) heet: de `\(\sigma\)`-algebra voortgebracht door de klasse `\(\mathcal{C}\)`.
 
 ## Definitie 1.6
 
@@ -48,7 +48,7 @@ Twee gebeurtenissen `\(A\)` en `\(B\)` heten **onafhankelijk** indien `$$P(A\cap
 
 ## Definitie 2.5
 
-Een familie gebeurtenissen `\(A_1,A_2,...,A_n;(n\geq2)\)` heet **onderling onafhankelijk** indien voor **elke** keuze van r verschillende indices `\(i_1,i_2,...,i_r\)` uit `\(1,...,n\)` en voor elke `\(r=2,...,n\)` geldt: `$$P(A_{i_1}\cap A_{i_2}\cap\hdots\cap A_{i_r})=P(A_{i_2})P(A_{i_2})\cdots P(A_{i_r}).$$`
+Een familie gebeurtenissen `\(A_1,A_2,...,A_n;(n\geq2)\)` heet **onderling onafhankelijk** indien voor **elke** keuze van r verschillende indices `\(i_1,i_2,...,i_r\)` uit `\(1,...,n\)` en voor elke `\(r=2,...,n\)` geldt: `$$P(A_{i_1}\cap A_{i_2}\cap\ldots\cap A_{i_r})=P(A_{i_2})P(A_{i_2})\cdots P(A_{i_r}).$$`
 
 ## Definitie 2.6
 

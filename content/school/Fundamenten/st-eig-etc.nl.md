@@ -24,7 +24,7 @@ Zij `\(E,F\)` en `\(G\)` deelverzamelingen van het universum `\(\Omega\)`.
 
 8. `\((E\cap F)^c=E^c\cup F^c\)` (de Morgan's tweede wet)
 
-## Gevolgen uit de axioma's van [Definitie 1.3](/nl/school/fks/begrippenlijst/#definitie-13){#def-13-gevolgen-axioma}
+## Gevolgen uit de axioma's van [Definitie 1.3](/nl/school/fundamenten/begrippenlijst/#definitie-13){#def-13-gevolgen-axioma}
 
 1. `\(A_n\in\mathcal{B},n=1,2,...,N\implies\cup_{n=1}^{N}A_n\in\mathcal{B}\)`
 
@@ -38,7 +38,7 @@ Zij `\(E,F\)` en `\(G\)` deelverzamelingen van het universum `\(\Omega\)`.
 
 Gegeven een klasse `\(\mathcal{C}\)` van deelverzamelingen van `\(\Omega\)`, dan bestaat er een `\(\sigma\)`-algebra `\(\mathcal{B(C)}\)` die alle verzamelingen uit `\(\mathcal{C}\)` omvat, en zodanig dat voor elke `\(\sigma\)`-algebra `\(\mathcal{B}_1\)`, die `\(\mathcal{C}\)` bevat geldt: `\(\mathcal{B(C)}\subset\mathcal{B}_1\)`.
 
-## Gevolgen uit de axioma's van [Definitie 1.6](/nl/school/fks/begrippenlijst/#definitie-16){#def-16-gevolgen-axioma}
+## Gevolgen uit de axioma's van [Definitie 1.6](/nl/school/fundamenten/begrippenlijst/#definitie-16){#def-16-gevolgen-axioma}
 
 1. `\(P(\emptyset)=0\)`
 

@@ -1,5 +1,6 @@
 ---
-title: Begrippenlijst
+title: "Begrippenlijst"
+output: pdf_document
 ---
 
 # Hoofdstuk 1: Kansruimten

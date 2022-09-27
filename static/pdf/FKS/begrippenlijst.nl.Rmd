@@ -6,8 +6,6 @@ output:
       in_header: header.tex
 ---
 
-[PDF](/pdf/FKS/begrippenlijst.nl.pdf)
-
 # Hoofdstuk 1: Kansruimten
 
 ## Definitie 1.1

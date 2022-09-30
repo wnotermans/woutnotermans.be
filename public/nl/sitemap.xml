@@ -28,6 +28,8 @@
                 href="/nl/projects/"
                 />
   </url><url>
+    <loc>/nl/school/comp_ana/begrippenlijst/</loc>
+  </url><url>
     <loc>/nl/school/fundamenten/begrippenlijst/</loc>
   </url><url>
     <loc>/nl/categories/</loc>
@@ -42,7 +44,11 @@
                 href="/nl/categories/"
                 />
   </url><url>
+    <loc>/nl/school/vcdv/cheatsheet/</loc>
+  </url><url>
     <loc>/nl/school/comp_ana/</loc>
+  </url><url>
+    <loc>/nl/school/comp_ana/st-eig-etc/</loc>
   </url><url>
     <loc>/nl/school/fundamenten/</loc>
   </url><url>

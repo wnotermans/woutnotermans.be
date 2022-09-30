@@ -6,7 +6,7 @@ output:
       in_header: header.tex
 ---
 
-[Download as PDF](/pdf/FKS/begrippenlijst.nl.pdf)
+[PDF](/pdf/FKS/begrippenlijst.nl.pdf)
 
 # Hoofdstuk 1: Kansruimten
 

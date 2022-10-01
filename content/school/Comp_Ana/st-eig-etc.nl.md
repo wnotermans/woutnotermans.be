@@ -36,6 +36,38 @@ Zij `\(\sum_{n\geq0}\alpha_nz^n\)` een complexe machtreeks met convergentiestraa
 
 Zij `\(f:\Omega\to\mathbb{C}\)` analytisch, `\(z_0\in\Omega\)` en `\(f(z_0)\neq0\)`. Dan is er een bolomgeving `\(U\)` van `\(z_0\)` in `\(\Omega\)` zodat `\(f|_U\)` injectief is, zodat `\(f(U):=V\)` open is en zodat `\((f|_U)^{-1}:V\to U\)` analytisch is.
 
+## Eigenschap 1.2.4
+
+Zij `\(z=z(t)=(x(t),y(t)),t\in[a,b]\)` en `\(f=u+iv\)` beide zoals in [Definitie 1.2.1](/nl/school/comp_ana/begrippenlijst/#definitie-121). We beschouwen de volgende vectorvelden op `\(\Omega\)`:
+
+`$$\vec{F^1}=(u,-v)$$`
+
+`$$\vec{F^2}=(v,u)$$`
+
+Dan is `$$\int_\mathcal{C}f(z)dz=\int_\mathcal{C}udx-vdy+i(vdx+udy)=\int_\mathcal{C}\vec{F^1}\bullet d\mathbf{r}+i\int_\mathcal{C}\vec{F^2}\bullet d\mathbf{r}$$`
+
+## Propositie 1.2.5
+
+Zij `\(\Omega\subset\mathcal{C}\)` stervormig en zij `\(f:\Omega\to\mathcal{C}\)`. We schrijven `\(f=u+iv\)`. De volgende uitspraken zijn equivalent:
+
+1. `\(f\)` is analytisch
+
+1. de vectorvelden `\(\vec{F^1}\)` en `\(\vec{F^2}\)` uit [Eigenschap 1.2.4](#eigenschap-124) zijn gradiënt vectorvelden.
+
+## Propositie 1.2.6
+
+Zij `\(\mathcal{C}\subset\Omega\)` een kromme met parametrisatie `\(z=\sigma(t),t\in[a,b]\)`. Zij `\(g\)` een `\(C^1\)` functie op `\(\Omega\)`. Dan is `$$\int_\mathcal{C}\vec{\nabla}g\bullet d\mathbf{r}=g(\sigma(b))-g(\sigma(a)).$$`
+
+De lengte `\(L\)` van een kromme `\(\mathcal{C}\)` met parametrisatie `\(z=\sigma(t),t\in[a,b]\)` is `\(L=\int_a^b|\sigma'(t)|dt\)`.
+
+## Lemma 1.2.7 ("ML"-lemma) {#lemma-127}
+
+Zij `\(\mathcal{C}\)` een kromme met lengte `\(L\)`. zij `\(f:\mathcal{C}\to\mathbb{C}\)` continu. Noteer `\(M=\max_{z\in\mathcal{C}}|f(z)|\)`. Dan geldt: `$$\left|\int_\mathcal{C}f(z)dz\right|\leq ML.$$`
+
+## Propositie 1.2.9
+
+Zij `\(F:\Omega\to\mathbb{C}\)` analytisch en zij `\(F'=f\)`. Zij `\(\mathcal{C}\subset\Omega\)` een kromme met bijbehorende parametrisatie `\(\sigma(t),t\in[a,b]\)`. Dan is `$$\int_\mathcal{C}f(z)dz=F(\sigma(b))-F(\sigma(a)).$$`
+
 # Hoofdstuk 2: De representatieformule van Cauchy
 
 # Hoofdstuk 3: Enige meetkunde in `\(\mathbb{C}\)`

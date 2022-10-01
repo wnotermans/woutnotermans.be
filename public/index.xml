@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>woutnotermans</title>
-    <link>/</link>
+    <link>https://woutnotermans.be/</link>
     <description>Recent content on woutnotermans</description>
     <image>
-      <url>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://woutnotermans.be/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://woutnotermans.be/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://woutnotermans.be/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About me</title>
-      <link>/about/</link>
+      <link>https://woutnotermans.be/about/</link>
       <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://woutnotermans.be/about/</guid>
       <description>My name is Wout Notermans, I&amp;rsquo;m a math student and computer nerd from Belgium. My main interests are computational and applied mathematics, with an additional focus on programming and optimization. I&amp;rsquo;m also a musician and have been playing the euphonium for almost my entire life. I mainly listen to eurobeat, video game OST and jazz, but I&amp;rsquo;m also a big fan of old-time musicals like Singin&amp;rsquo; In The Rain. I mainly program in Python, but I&amp;rsquo;m also interested in learing Lua which is known for its extreme speed.</description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>/projects/</link>
+      <link>https://woutnotermans.be/projects/</link>
       <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>/projects/</guid>
+      <guid>https://woutnotermans.be/projects/</guid>
       <description>TBA</description>
     </item>
     

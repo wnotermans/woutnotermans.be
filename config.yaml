@@ -1,4 +1,4 @@
-baseURL: "/"
+baseURL: "https://woutnotermans.be/"
 title: woutnotermans
 theme: hugo-PaperMod
 paginate: 5

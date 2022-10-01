@@ -2,78 +2,78 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/about/</loc>
+    <loc>https://woutnotermans.be/about/</loc>
     <lastmod>2022-09-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="/nl/about/"
+                href="https://woutnotermans.be/nl/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/about/"
+                href="https://woutnotermans.be/about/"
                 />
   </url><url>
-    <loc>/projects/</loc>
+    <loc>https://woutnotermans.be/projects/</loc>
     <lastmod>2022-09-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="/nl/projects/"
+                href="https://woutnotermans.be/nl/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/projects/"
+                href="https://woutnotermans.be/projects/"
                 />
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://woutnotermans.be/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="/nl/categories/"
+                href="https://woutnotermans.be/nl/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="https://woutnotermans.be/categories/"
                 />
   </url><url>
-    <loc>/series/</loc>
+    <loc>https://woutnotermans.be/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="/nl/series/"
+                href="https://woutnotermans.be/nl/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/series/"
+                href="https://woutnotermans.be/series/"
                 />
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://woutnotermans.be/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="/nl/tags/"
+                href="https://woutnotermans.be/nl/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="https://woutnotermans.be/tags/"
                 />
   </url><url>
-    <loc>/</loc>
+    <loc>https://woutnotermans.be/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="/nl/"
+                href="https://woutnotermans.be/nl/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="https://woutnotermans.be/"
                 />
   </url>
 </urlset>

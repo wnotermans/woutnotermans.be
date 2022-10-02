@@ -36,6 +36,8 @@ languages:
               - name: Contact
                 url: "mailto:woutnotermans1@gmail.com"
                 weight: 3
+      label:
+        text: "Homepage"
     nl:
       languageName: "Nederlands"
       weight: 2
@@ -61,6 +63,8 @@ languages:
               - name: Contact
                 url: "mailto:woutnotermans1@gmail.com"
                 weight: 4
+      label:
+        text: "Startpagina"
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -94,16 +98,11 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
-    
-  label:
-    text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+    favicon: favicon.ico
+    favicon16x16: favicon-16x16.png
+    favicon32x32: favicon-32x32.png
+    apple_touch_icon: apple-touch-icon.png
+    safari_pinned_tab: safari-pinned-tab.svg
 
   socialIcons:
     - name: github
@@ -122,21 +121,6 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
-
-menu:
-  main:
-    - identifier: about
-      name: About me
-      url: /about/
-      weight: 10
-    - identifier: projects
-      name: Projects
-      url: /projects/
-      weight: 20
-    - identifier: email
-      name: Email
-      url: "mailto:woutnotermans1@gmail.com"
-      weight: 30
 
 markup:
   goldmark:

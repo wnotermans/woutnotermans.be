@@ -60,7 +60,23 @@ Een familie gebeurtenissen `\(A_1,A_2,...,A_n;(n\geq2)\)` heet **onderling onafh
 
 Een oneindige familie gebeurtenissen `\(A_1,A_2,...\)` heet onderling onafhankelijk indien elke eindige deelfamilie onderling onafhankelijk is in de zin van [Definitie 2.5](#definitie-25).
 
+## Definitie 2.7
+
+Voor een eindeige rij `\(\Omega_1,\ldots,\Omega_n\)` van universa definiëren we het **cartesisch product** van `\(\Omega_1,\ldots,\Omega_n\)` als de verzameling van alle geordende `\(n\)`-tallen `\((\omega_1,\ldots,\omega_n)\)` waarbij `\(\omega_i\in\Omega_i\ (i=1,\ldots,n):\)` `$$\Omega=\Omega_1\times\ldots\times\Omega_n=\{(\omega_1,\ldots,\omega_n)|\ \omega_i\in\Omega_i;\ i=1,\ldots,n\}.$$`
+
+## Definitie 2.8
+
+Als `\(\mathcal{B}_1,\ldots,\mathcal{B}_n\ \sigma\)`-algebra's zijn over respectievelijk `\(\Omega_1,\ldots,\Omega_n\)` dan noemen we elke verzameling van de vorm `$$B_1\times\ldots\times B_n\qquad\text{met}\ B_i\in\mathcal{B}_i\ (i=1,\ldots,n)$$` een **rechthoek**. De `\(\sigma\)`-algebra `\(\mathcal{B}\)` voortgebracht door de klasse der rechthoeken noemen we de **product-$\sigma$-algebra** van `\(\mathcal{B}_1,\ldots,\mathcal{B}_n\)`.
+
+## Definitie 2.10
+
+De éénduidig bepaalde kansmaat `\(P\)` waarvan het bestaan gewaarborgd wordt door [Stelling 2.9](/nl/school/fundamenten/st-eig-etc#stelling-29) heet de **productmaat** van `\(P_1,\ldots,P_n\)`.
+
 # Hoofdstuk 3: Stochastische veranderlijken en hun verdeling
+
+## Definitie 3.1
+
+Zij `\(\left(\Omega,\mathcal{B},P\right)\)` een gegeven kansruimte. Een reële functie `\(X.\Omega\to\mathbb{R}\)` heet een **stochastische veranderlijke (s.v.)** indien voor alle `\(B\in\mathcal{B}_1\)` geldt: `$$X^{-1}(B)=\{\omega|\ X(\omega)\in B\}\in \mathcal{B}$$` `$$=\{x\in B\}$$`
 
 # Hoofdstuk 4: Verwachtingswaarde; momenten; genererende functie; karakteristieke functie
 

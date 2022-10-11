@@ -78,7 +78,7 @@ params:
   disableThemeToggle: false
   displayFullLangName: true
 
-  ShowReadingTime: true
+  ShowReadingTime: false
   ShowShareButtons: true
   ShowPostNavLinks: false
   ShowBreadCrumbs: true

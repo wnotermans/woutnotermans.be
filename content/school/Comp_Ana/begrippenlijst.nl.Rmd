@@ -1,5 +1,5 @@
 ---
-title: "Begrippenlijst"
+title: "Begrippenlijst Complexe Analyse"
 output:
   pdf_document:
     includes:

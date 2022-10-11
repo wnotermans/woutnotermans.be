@@ -1,5 +1,5 @@
 ---
-title: "Begrippenlijst"
+title: "Begrippenlijst Fundamenten"
 output:
   pdf_document:
     includes:
@@ -66,7 +66,7 @@ Voor een eindeige rij `\(\Omega_1,\ldots,\Omega_n\)` van universa definiëren we
 
 ## Definitie 2.8
 
-Als `\(\mathcal{B}_1,\ldots,\mathcal{B}_n\ \sigma\)`-algebra's zijn over respectievelijk `\(\Omega_1,\ldots,\Omega_n\)` dan noemen we elke verzameling van de vorm `$$B_1\times\ldots\times B_n\qquad\text{met}\ B_i\in\mathcal{B}_i\ (i=1,\ldots,n)$$` een **rechthoek**. De `\(\sigma\)`-algebra `\(\mathcal{B}\)` voortgebracht door de klasse der rechthoeken noemen we de **product-$\sigma$-algebra** van `\(\mathcal{B}_1,\ldots,\mathcal{B}_n\)`.
+Als `\(\mathcal{B}_1,\ldots,\mathcal{B}_n\ \sigma\)`-algebra's zijn over respectievelijk `\(\Omega_1,\ldots,\Omega_n\)` dan noemen we elke verzameling van de vorm `$$B_1\times\ldots\times B_n\qquad\text{met}\ B_i\in\mathcal{B}_i\ (i=1,\ldots,n)$$` een **rechthoek**. De `\(\sigma\)`-algebra `\(\mathcal{B}\)` voortgebracht door de klasse der rechthoeken noemen we de **product-**$\sigma$**-algebra** van `\(\mathcal{B}_1,\ldots,\mathcal{B}_n\)`.
 
 ## Definitie 2.10
 
@@ -76,11 +76,56 @@ De éénduidig bepaalde kansmaat `\(P\)` waarvan het bestaan gewaarborgd wordt d
 
 ## Definitie 3.1
 
-Zij `\(\left(\Omega,\mathcal{B},P\right)\)` een gegeven kansruimte. Een reële functie `\(X.\Omega\to\mathbb{R}\)` heet een **stochastische veranderlijke (s.v.)** indien voor alle `\(B\in\mathcal{B}_1\)` geldt: `$$X^{-1}(B)=\{\omega|\ X(\omega)\in B\}\in \mathcal{B}$$` `$$=\{x\in B\}$$`
+Zij `\(\left(\Omega,\mathcal{B},P\right)\)` een gegeven kansruimte. Een reële functie `\(X.\Omega\to\mathbb{R}\)` heet een **stochastische veranderlijke (s.v.)** indien voor alle `\(B\in\mathcal{B}_1\)` geldt: `$$X^{-1}(B)=\{\omega|\ X(\omega)\in B\}\in \mathcal{B}$$` `$$=\{x\in B\}$$`.
+
+## Definitie 3.4
+
+Zij `\(X\)` een s.v. over `\((\Omega,\mathcal{B},P)\)`, dan heet een functie `\(F:\mathbb{R}\to\mathbb{R}\)` gedefinieerd door `$$F(x)=P(X\leq x)\qquad(x\in\mathbb{R})$$` de **verdelingsfunctie van de s.v. `\(X\)`. (v.f.)**
+
+## Definitie 3.7
+
+Zij `\(X\)` een s.v. over `\((\Omega,\mathcal{B},P)\)`. De s.v. `\(X\)` heet een **discrete s.v.** indien er een aftelbare verzemeling `\(B\subset\mathbb{R}\)` bestaat zodanig dat `\(P(X\in B)=1\)`. Als `\(B=\{b_k|\ k\in\mathbb{Z}\}\)`, dan heet de aftelbare rij van reële constanten `\(\{p_k\}\ k\in\mathbb{Z}\)` met `$$p_k=P(X=b_k)$$` de **discrete verdeling van de s.v. `\(X\)`.**
+
+## Definitie 3.8
+
+Zij `\(X\)` een s.v. over `\((\Omega,\mathcal{B},P)\)` met v.f. `\(F\)`. De s.v. `\(X\)` heet een **continue** s.v. indien er een functie `\(f\)` bestaat zodanig dat voor alle `\(x\in\mathbb{R}\)`:
+
+1. `\(f(x)\geq0\)`
+1. `\(F(x)=\int_{-\infty}^{x}f(t)dt\)`
+
+Indien `\(f\)` bestaat, dan heet `\(f\)` de **dichtheidsfunctie van de s.v. `\(X\)`.**
 
 # Hoofdstuk 4: Verwachtingswaarde; momenten; genererende functie; karakteristieke functie
 
+## Definitie 4.1
+
+Zij `\(X\)` een discrete s.v. met verdeling `\(\{p_k|\ k\in\mathbb{Z}\}\)`. Zij `\(g:\mathbb{Z}\to\mathbb{C}\)` een functie. De **verwachtingswaarde van `\(g(X)\)`** [notatie: `\(E\left[g(X)\right]\)`] is gedefinieerd door `$$E\left[g(X)\right]=\sum_{-\infty}^{\infty}g(k)p_k$$` indien `\(\sum_{-\infty}^{\infty}|g(k)|p_k<\infty\)`. Indien `\(\sum_{-\infty}^{\infty}|g(k)|p_k\)` divergeert, dan zeggen we dat de verwachtingswaarde van `\(g(X)\)` **niet bestaat**.
+
+## Definitie 4.2
+
+Zij `\(X\)` een continue s.v. met dichtheidsfunctie `\(f(x)\)`. Zij `\(g:\mathbb{Z}\to\mathbb{C}\)` een functie. De **verwachtingswaarde van `\(g(X)\)`** [notatie: `\(E\left[g(X)\right]\)`] is gedefinieerd door `$$E\left[g(X)\right]=\int_{-\infty}^{\infty}g(x)f(x)$$` indien `\(\int_{-\infty}^{\infty}|g(x)|f(x)<\infty\)`. Indien `\(\int_{-\infty}^{\infty}|g(x)|f(x)\)` divergeert, dan zeggen we dat de verwachtingswaarde van `\(g(X)\)` **niet bestaat**.
+
+## Karakteristieke functie
+
+`$$\varphi(t)=E(e^{itX})=\int_{-\infty}^{\infty}e^{itx}f(x)dx$$` heet de **karakteristieke functie** van de s.v. `\(X\)`.
+
 # Hoofdstuk 5: Meerdimensionale verdelingen
+
+## Definitie 5.1
+
+Zij `\((\Omega,\mathcal{B},P)\)` een gegeven kansruimte. Een **stochastische vector** over `\((\Omega,\mathcal{B},P)\)` is een geordend `\(n\)`-tal van stochastische veranderlijken: `\((X_1,\ldots,X_n)\)`.
+
+## Definitie 5.2
+
+Is `\((X_1,\ldots,X_n)\)` een stochastische vector over `\((\Omega,\mathcal{B},P)\)` dan heet de functie `\(F_{X_1,\ldots,X_n}:\mathbb{R}^n\to\mathbb{R}\)` gedifinieerd door `$$F_{X_1,\ldots,X_n}(x_1,\ldots,x_n)=P(X_1\leq x_1,\ldots,X_n\leq x_n)$$` de **gezamelijke verdelingsfunctie** van de stochastische veranderlijken `\(X_1,\ldots,X_n\)`.
+
+## Definitie 5.4
+
+Is `\((X_1,\ldots,X_n)\)` een stochastische vector met gezemenlijke v.f. `\(F_{X_1,\ldots,X_n}\)`, dan heten de verdelingsfuncties van de stochastiche vectoren `\((X_{j_1},\ldots,X_{j_r})\)` met `\(1\leq j_1<j_2<\ldots<j_r\leq n\)` de **marginale verdelingsfuncties** van `\(F_{X_1,\ldots,X_n}\)`. Bestaat de gezamenlijke dichtheidsfunctie `\(f_{F_{X_1,\ldots,X_n}}\)` dan heten de dischtheidsfuncties van de stochastische vectoren `\((X_{j_1},\ldots,X_{j_r})\)` met `\(1\leq j_1<j_2<\ldots<j_r\leq n\)` de **marginale dichtheidsfuncties**.
+
+## Definitie 5.6
+
+De stochastische veranderlijken `\(X_1,\ldots,X_n\)` over `\((\Omega,\mathcal{B},P)\)` heten **onafhankelijk** indien voor alle `\(B_1,\ldots,B_n\in\mathcal{B}^1\)` de gebeurtenissen `$$\{X_1\in B_1\},\ldots,\{X_n\in B_n\}$$` **onderling** onafhankelijk zijn.
 
 # Hoofdstuk 6: Voorwaardelijke verdelingen en verwachtingwaarden
 

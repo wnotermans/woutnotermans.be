@@ -34,7 +34,7 @@ languages:
                 url: projects/
                 weight: 2
               - name: Contact
-                url: "mailto:woutnotermans1@gmail.com"
+                url: "mailto:mail@woutnotermans.be"
                 weight: 3
       label:
         text: "Homepage"
@@ -61,7 +61,7 @@ languages:
                 url: projects/
                 weight: 3
               - name: Contact
-                url: "mailto:woutnotermans1@gmail.com"
+                url: "mailto:mail@woutnotermans.be"
                 weight: 4
       label:
         text: "Startpagina"

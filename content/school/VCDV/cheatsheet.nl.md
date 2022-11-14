@@ -210,3 +210,42 @@ Laplaciaan: `\(\Delta\varphi=\nabla^2\varphi=\mathbf{div\ grad}\ \varphi\)`. Har
 Een vectorveld `\(\mathbf{F}\)` is **solenoïdaal** als `\(\mathbf{div\ F}=0\)`.
 
 Een vectorveld `\(\mathbf{F}\)` is **irrotationaal** als `\(\mathbf{curl\ F}=\vec{0}\)`.
+
+# Les 5
+
+## Stelling van Green
+
+>"Arbeid rond gebied is som rotaties in gebied"
+
+Gegeven `\(R\)` een regulier en gesloten gebied met rand `\(\mathcal{C}\)`, een gesloten curve die **positief** geörienteerd is t.o.v. `\(R\)` en een glad vectorveld `\(\mathbf{F}\)` op `\(R\)`.
+
+`$$\oint_\mathcal{C}\mathbf{F}\bullet d\mathbf{r}=\iint_R\mathbf{curl\ F}\ dA$$`
+
+Ook wel (+ analoog voor 3D) `$$\oint_\mathcal{C}F_1(x,y)dx+F_2(x,y)dy=\iint_R\left(\dfrac{\partial F_2}{\partial x}-\dfrac{\partial F_1}{\partial y}\right)dA$$`
+
+## Divergentiestelling (2D)
+
+>"Netto in/uitstroom is som van inwendige bronnen/sinks"
+
+Gegeven `\(R\)` een regulier en gesloten gebied met rand `\(\mathcal{C}\)`, een gesloten curve. Stel `\(\mathbf{\hat{N}}\)` de uitwendige eenheidsnormaal op `\(\mathcal{C}\)` en `\(\mathbf{F}\)` een glad vectorveld op `\(R\)`.
+
+`$$\iint_R\mathbf{div\ F}\ dA=\oint_\mathcal{C}\mathbf{F\bullet\hat{N}}\ ds$$`
+
+## Divergentiestelling (3D)
+
+Gegeven `\(D\)` een regulier driedimensionaal gebied met rand `\(\mathcal{S}\)` die een geörienteerd, gesloten oppervlak is met eenheidsnormaal `\(\mathbf{\hat{N}}\)` **uit** `\(D\)` en `\(\mathbf{F}\)` een glad vectorveld op `\(D\)`.
+
+`$$\iiint_D\mathbf{div\ F}\ dV=\oiint_\mathcal{S}\mathbf{F\bullet\hat{N}}\ dS$$`
+
+Varianten:
+
+`$$\iiint_D\mathbf{curl\ F}\ dV=-\oiint_\mathcal{S}\mathbf{F\times\hat{N}}\ dS$$`
+
+`$$\iiint_D\mathbf{grad}\ \phi\ dV=\oiint_\mathcal{S}\mathbf\phi{\hat{N}}\ dS$$`
+# Les 6
+
+## Stelling van Stokes
+
+>"Green in 3D"
+
+Gegeven een (stuksgewijs) glad, geörienteerd 3D-oppervlak `\(\mathcal{S}\)` met **uitwendig** eenheidsnormaalveld `\(\mathbf{\hat{N}}\)` en rand `\(\mathcal{C}\)` bestaande uit één of meerdere (stukgewijs) gladde, gesloten krommen met örientatie gegeven door `\(\mathcal{S}\)`. Als `\(\mathbf{F}\)` een glad vectorveld is op een open verzameling die `\(\mathcal{S}\)` bevat, dan is `$$\oint_\mathcal{C}\mathbf{F}\bullet d\mathbf{r}=\iint_\mathcal{S}\mathbf{curl\ F\bullet\hat{N}}\ dS$$`

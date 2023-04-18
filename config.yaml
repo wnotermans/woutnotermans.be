@@ -1,0 +1,125 @@
+baseURL: "https://woutnotermans.be/"
+title: woutnotermans
+theme: hugo-PaperMod
+paginate: 5
+language_code: en-US
+
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+languages:
+    en:
+      languageName: "English"
+      weight: 1
+      taxonomies:
+        category: categories
+        tag: tags
+        series: series
+      DateFormat: "02/01/2006"
+      homeInfoParams:
+        Title: "Welcome to woutnotermans.be"
+        Content: "This is my personal site and archive."
+      menu:
+          main:
+              - name: About me
+                url: about/
+                weight: 1
+              - name: Projects
+                url: projects/
+                weight: 2
+              - name: Contact
+                url: "mailto:mail@woutnotermans.be"
+                weight: 3
+      label:
+        text: "Homepage"
+    nl:
+      languageName: "Nederlands"
+      weight: 2
+      taxonomies:
+        category: categories
+        tag: tags
+        series: series
+      DateFormat: "02/01/2006"
+      homeInfoParams:
+        Title: "Welkom op woutnotermans.be"
+        Content: "Dit is mijn persoonlijke site and archief."
+      menu:
+          main:
+              - name: Over mij
+                url: about/
+                weight: 2
+              - name: Projecten
+                url: projects/
+                weight: 3
+              - name: Contact
+                url: "mailto:mail@woutnotermans.be"
+                weight: 4
+      label:
+        text: "Startpagina"
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: woutnotermans
+  description: "Archive and personal site"
+  keywords: [Archive, personal]
+  author: Wout Notermans
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  displayFullLangName: true
+
+  ShowReadingTime: false
+  ShowShareButtons: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+  math: true
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: favicon.ico
+    favicon16x16: favicon-16x16.png
+    favicon32x32: favicon-32x32.png
+    apple_touch_icon: apple-touch-icon.png
+    safari_pinned_tab: safari-pinned-tab.svg
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/wnotermans"
+      
+  editPost:
+    URL: "https://github.com/wnotermans/woutnotermans.be/tree/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+    
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

@@ -1,0 +1,38 @@
+---
+title: Animaties
+author: Wout Notermans
+ShowToC: false
+---
+
+```{r,animation.hook='ffmpeg',echo=FALSE,interval=0.05}
+library(latex2exp)
+lambda = 0.9884818
+erf <- function(x) 2 * pnorm(x * sqrt(2)) - 1
+s <- function(t, D_L, lambda) 2 * lambda * sqrt(D_L * t)
+sol <- function(x, t, T_B, D_L, lambda) {
+  if (x < s(t, D_L, lambda)) {
+    temperature <- T_B * (1 - (erf(x / (2 * sqrt(D_L * t)))) / (erf(lambda)))
+  } else {
+    temperature <- 0
+  }
+  return(temperature)
+}
+
+D_L <- 0.131e-6
+T_B <- 10
+
+for (t in c(seq(0, 59, 1), seq(60, 600, 10))) {
+  plot(
+    1,
+    type = "n",
+    xlim = c(0, 0.02),
+    ylim = c(0, 10),
+    xlab = TeX(r'($\it{x}$)'),
+    ylab = TeX(r'($\it{T(x)}$)')
+  )
+  lines(rep(s(t,D_L,lambda),2),c(0,10),col='red',lwd=2)
+  lines(seq(0, 0.2, 0.0001), mapply(sol, seq(0, 0.2, 0.0001), t, T_B, D_L, lambda),col='blue',lwd=2)
+  legend("topright",legend = c(paste("s(",t,")",sep = ""),paste("T(x,",t,")",sep = "")),col=c('red','blue'),pch=16)
+}
+```
+
